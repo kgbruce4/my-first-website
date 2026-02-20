@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alex Carter | Personal Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <input class="theme-toggle" type="checkbox" id="theme-toggle" />
+    <label class="theme-toggle-label" for="theme-toggle" aria-label="Toggle light mode">
+      <span class="theme-dark">🌙 Dark</span>
+      <span class="theme-light">☀️ Light</span>
+    </label>
+
+    <div class="site">
+      <header class="hero" id="top">
+        <div class="container">
+          <p class="tag">Personal Website</p>
+          <h1>Hi, I'm Alex 👋</h1>
+          <p class="subtitle">
+            Front-end enthusiast who loves building clean, useful, and inclusive web
+            experiences.
+          </p>
+          <a class="button" href="#projects">View Projects</a>
+        </div>
+      </header>
+
+      <main>
+        <section class="section" id="about">
+          <div class="container card">
+            <h2>About Me</h2>
+            <p>
+              I'm a self-taught developer focused on crafting polished interfaces and
+              smooth user experiences. I enjoy turning ideas into responsive websites
+              that work well across devices.
+            </p>
+          </div>
+        </section>
+
+        <section class="section" id="projects">
+          <div class="container">
+            <h2>Projects</h2>
+            <div class="project-grid">
+              <article class="project-card">
+                <h3>Portfolio Revamp</h3>
+                <p>
+                  Redesigned a personal portfolio with accessibility improvements and
+                  better performance.
+                </p>
+              </article>
+              <article class="project-card">
+                <h3>Task Tracker UI</h3>
+                <p>
+                  Designed a modern task management interface with clear layouts for
+                  desktop and mobile.
+                </p>
+              </article>
+              <article class="project-card">
+                <h3>Local Cafe Landing Page</h3>
+                <p>
+                  Built a conversion-focused landing page featuring responsive sections
+                  and clean typography.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="contact">
+          <div class="container card contact">
+            <h2>Contact</h2>
+            <p>Let's connect and build something great together.</p>
+            <a href="mailto:alex@example.com">alex@example.com</a>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
